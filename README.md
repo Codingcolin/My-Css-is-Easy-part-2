@@ -2,19 +2,20 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+To create a flexible layout using tailwindCss
 
 ## Description
-TODO - How have you solved the problem?
+Create 3 columns labeled:
+-Header
+-Main/Sidebar
+-Footer
+These columns should be styled using tailwindCss
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+<script src="https://cdn.tailwindcss.com"></script>
 
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
+npx tailwindcss -i ./style.css -o ./dist/output.css --watch 
 
 ### The Core Team
 
